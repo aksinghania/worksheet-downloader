@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Worksheet",
+  "version": "1.0",
+  "description": "Removes all elements with a specified ID or class from the current page.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {}
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
